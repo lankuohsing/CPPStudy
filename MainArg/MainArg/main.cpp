@@ -8,6 +8,8 @@ using namespace std;
 */
 int main( int argc, char* argv[] )
 {
+	char aa[2][20] = { "lightgbm.exe","config=train.conf" };
+	int ac = 2;
 	for (int i = 0; i<argc; i++)
 		cout << argv[i] << endl;
 	system( "pause" );
