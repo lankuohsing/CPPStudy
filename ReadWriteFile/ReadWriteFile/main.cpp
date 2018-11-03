@@ -16,7 +16,9 @@ int main( void )
 		cout << s << endl;
 	}
 	inf.close();
-
+	char str[] = "languoxing\
+ xujuanting";
+	cout << str << endl;
 	system( "pause" );
 	return 0;
 }
