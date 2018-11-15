@@ -43,3 +43,6 @@
 *.vcxproj
 *.suo
 *.txt
+*.iobj
+*.ipdb
+*.ipch
