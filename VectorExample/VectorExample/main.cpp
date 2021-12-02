@@ -13,6 +13,7 @@ void initVector ( ){
     int n = 5;
     std::vector<int> v3 ( n, i );//        v3包含n个值为i的元素
     std::vector<int> v4 ( n );//        v4含有值初始化的元素的n个副本
+    std::vector<int> v5 { 1, 2, 3, 4, 5 };
     for ( int i = 0; i < n; i++ )
     {
         v1.push_back ( i + 1 );
@@ -21,6 +22,7 @@ void initVector ( ){
     printVector ( v2 );
     printVector ( v3 );
     printVector ( v4 );
+    printVector ( v5 );
 }
 int main ( void ){
     initVector ( );//初始化vector
